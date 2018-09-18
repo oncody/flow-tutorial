@@ -1,0 +1,180 @@
+const eslintConfig = require('oncody-eslint-config');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+module.exports = {
+  entry: './index.js',
+  mode: 'development',
+  module: {
+  rules: [
+    {
+      test: /\.html$/,
+      use: ['html-loader','html-shaper-loader']
+    },
+    {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loader: 'eslint-loader',
+      options: eslintConfig
+    }
+  ]
+},
+  plugins: [
+    new HtmlWebpackPlugin({template: './index.html'})
+  ]
+};
+
+
+
+
+    // new webpack.NoEmitOnErrorsPlugin(),
+    //   new webpack.NamedModulesPlugin(),
+
+
+	[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+all=true
+esproposal.class_instance_fields=warn
+esproposal.class_static_fields=warn
+experimental.const_params=true
+include_warnings=true
+log.file=C:\Users\cody\Desktop\flow
+
+
+[strict]
+nonstrict-import
+unclear-type
+unsafe-getters-setters
+untyped-import
+untyped-type-import
+sketchy-null
+
+
+
+
+    "eslint-config-vue": "latest",
+    "vue-template-compiler": "latest",
+
+    "@babel/preset-flow"
+	"transform-flow-strip-types"
+	//  "presets": ["flow"]
+
+
+
+.*/node_modules/.*
+
+/node_modules/*
+dist/*
+bin/*
+
+
+
+  /* @flow */
+
+  function square(n: number): number {
+    return n * n;
+  }
+
+  square(2);
+
+
+  {
+  "presets": [
+    "@babel/preset-flow"
+  ]
+}
+
+"presets": [
+    "@babel/preset-flow"
+  ]
+
+
+    "flow-typed": "latest",
+
+    "babel": "latest",
+
+	"babel-core": "latest",
+    "babel-plugin-transform-flow-strip-types": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-flow": "latest",
+
+    "@babel/core": "latest",
+    "@babel/plugin-transform-flow-strip-types": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-flow": "latest",
+
+
+
+    "@babel/preset-flow"
+	"transform-flow-strip-types"
+	//  "presets": ["flow"]
+
+
+
+{
+  "ignore": "node_modules",
+  "presets": ["flow"]
+}
+
+
+    "eslint-config-vue": "latest",
+    "vue-template-compiler": "latest",
+
+    "@babel/preset-flow"
+	"transform-flow-strip-types"
+	//  "presets": ["flow"]
+
+
+
+.*/node_modules/.*
+
+/node_modules/*
+dist/*
+bin/*
+
+
+
+  /* @flow */
+
+  function square(n: number): number {
+    return n * n;
+  }
+
+  square(2);
+
+
+    // new webpack.NoEmitOnErrorsPlugin(),
+    //   new webpack.NamedModulesPlugin(),
+
+    const eslintConfig = require('oncody-eslint-config');
+    const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+    module.exports = {
+      entry: './index.js',
+      mode: 'development',
+      module: {
+      rules: [
+        {
+          test: /\.html$/,
+          use: ['html-loader','html-shaper-loader']
+        },
+        {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          loader: 'eslint-loader',
+          options: eslintConfig
+        }
+      ]
+    },
+      plugins: [
+        new HtmlWebpackPlugin({template: './index.html'})
+      ]
+    };
+
