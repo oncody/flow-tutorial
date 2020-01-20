@@ -2,9 +2,9 @@
   "name": "01-flow",
   "version": "1.0.0",
   "description": "An example demonstrating flow",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "flow && flow-remove-types index.js -d dist"
+    "build": "flow && flow-remove-types src -d dist"
   },
   "keywords": [],
   "author": "",
