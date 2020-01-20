@@ -2,9 +2,9 @@
   "name": "02-babel",
   "version": "1.0.0",
   "description": "An example demonstrating flow",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "flow && babel index.js -d dist"
+    "build": "flow && babel src -d dist"
   },
   "keywords": [],
   "author": "",
